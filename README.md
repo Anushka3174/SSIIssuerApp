@@ -1,6 +1,6 @@
 # Web Authentication Issuer App based on Trinsic API
 This demo shows the use of Trinsic Credentials API calls into a nodejs app with their service client.
-It also shows a webhook implementation can create automated workflows in the app.
+It also shows a webhook implementation that can create automated workflows in the app.
 
 ## Use Case
 In this simple use case, the portal will act like an Identity Service Provider for web authentication which would issue credential including an email, full name, date of birth, role and an unique Identification Number.
