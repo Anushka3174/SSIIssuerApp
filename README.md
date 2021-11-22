@@ -7,7 +7,7 @@ In this simple use case, the portal will act like an Identity Service Provider f
 
 Once a credential is issued, that holder can use these to login to various website  using the Trinsic Wallet app.
 
-The demo of how this can be used can be found in the verification repository ()
+The demo of how this can be used can be found in the verification repository https://github.com/Anushka3174/SSIVerifierApp.git
 
 ## Prerequisites:
 - [npm](https://www.npmjs.com/get-npm)
@@ -30,10 +30,10 @@ The demo of how this can be used can be found in the verification repository ()
 1. Run with npm
 `npm start`
 2. On the web app, fill in the details and click issue credential.
-![credential view](assets/IssuerStep1.png)
+![credential view](assets/IssuerStep1.PNG)
 
 4. Scan the QR with your mobile wallet.
-![qr code view](assets/IssuerStep2.png)
+![qr code view](assets/IssuerStep2.PNG)
 
 This is a connection invitation.
 Webhooks will automatically issue you a credential once this is scanned and the connection is accepted.
